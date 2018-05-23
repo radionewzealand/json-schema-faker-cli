@@ -2,6 +2,10 @@ const _ = require('lodash');
 const jsonfile = require('jsonfile');
 const faker = require('json-schema-faker');
 
+faker.option({
+  useDefaultValue: true,
+});
+
 function generate(inputPath, outputPath, itemsLength) {
   const inputObject = jsonfile.readFileSync(inputPath);
   const output = itemsLength === undefined
