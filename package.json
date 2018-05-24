@@ -23,7 +23,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "json-schema-faker": "^0.3.6",
+    "json-schema-faker": "latest",
     "jsonfile": "latest",
     "lodash": "^4.16.6"
   },
